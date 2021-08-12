@@ -143,7 +143,7 @@ header nav .navright button span{
     font-size: 0.9rem;
     font-weight: 500;
 }
-.workcard .fa{
+.workcard .material-icons{
     padding: 1rem 0 1rem 0;
 }
 .workcontent .workrow2{
@@ -293,10 +293,9 @@ header nav .navright button span{
 .blogcard img{
     border-radius: 2rem;
     width: 90%;
-    margin-left: 1.2rem;
-    
+    margin-left: 1.2rem;  
 }
-.blogcard .fa{
+.blogcard .material-icons{
     margin-top: 2rem;
 }
 .blogcard h4{
