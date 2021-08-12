@@ -1,0 +1,389 @@
+@import 'utilities.css';
+:root{
+    --primary:#FEF9F6;
+    --secondary:#E55A2F;
+    --tertiary:#313e60;
+    --pure:#FFFFFF;
+    --light:#b2abab;
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1500px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+header{
+    background: var(--primary);
+    height: 800px;
+}
+header nav .navleft img{
+    width: 200px;
+}
+header nav .navright .navlinks a{
+    padding: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--light);
+    font-weight: 500;
+    transition: all 0.4s; 
+   
+}
+
+header nav .navight .navlinks a:hover{
+    color: var(--tertiary);
+}
+header nav .navright button{
+    border: none;
+    color: var(--pure);
+    background:  var(--secondary);
+    border-radius: 2rem;
+    padding: 15px 28px;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+header nav .navright button span{
+    margin-right: 1rem;
+}
+
+
+.hero{
+    z-index: -1;
+    padding: 2rem 2rem;
+}
+.hero .heroright img{
+    margin-left: 10rem;
+    width: 500px;
+}
+.hero .heroleft{
+    padding: 2rem;
+    margin-right: 4rem;
+}
+.hero .heroleft h1{
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: var(--tertiary);
+    margin-bottom: 1.6rem;
+}
+.hero .heroleft p{
+    color: var(--light);
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+}
+.hero .heroleft .herobutton{
+    padding-top: 2rem;
+}
+.hero .heroleft .herobutton button{
+    border: none;
+    color: var(--pure);
+    background:  var(--secondary);
+    border-radius: 2rem;
+    padding: 15px 28px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.rectangle img{
+    width: 100%;
+}
+.rectangle{
+    z-index: 1;
+    display: grid;
+    background-color: var(--pure);
+    grid-template-columns: repeat(auto-fit, 150px);
+    width: 60%;
+    transform: translate(500px, 0px);
+    grid-gap: 2rem;
+    margin-left: 5rem;
+    padding: 2rem 0 2rem 2rem;
+    border: 2px;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 2px 2px #c0bfbf;
+}
+.workintro h1{
+    color:var(--tertiary);
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 4rem;
+}
+.workintro span{
+    z-index: -1;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 18%;
+}
+.workcontent{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    
+}
+.workcontent .workrow1{
+    margin-top: 30rem;
+    margin-left: 3.5rem;
+}
+.workcard{
+    position: relative;
+    margin-right: 1rem;
+    background-color: var(--pure);
+    color: var(--tertiary);
+    padding: 35px;
+    border-radius: 10px;
+    margin-top: 0.6rem;
+    box-shadow: 2px 0 10px rgb(0 0 0 / 0.2);
+}
+.workcard p{
+    color: var(--light);
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.workcard .fa{
+    padding: 1rem 0 1rem 0;
+}
+.workcontent .workrow2{
+    margin-left: 3.2rem;
+    margin-top: 15rem;
+}
+
+.workcontent .workrow3{
+    margin-left: 3.5rem;
+}
+
+.industries{
+    padding: 2rem;  
+}
+.insectiontitle h1{
+    color:var(--tertiary);
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 4rem;
+}
+.insectiontitle span{
+    z-index: -1;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 18%;
+}
+.industexample img{
+    width: 50px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    width: 55px;
+    height: 50px;
+    background: var(--pure);
+    border: 1.5px solid var(--light);
+    border-radius: 100%;
+}
+.arrow .fa{
+    padding: 18px;
+}
+.card {
+    display: inline-block;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 2px 0 10px rgb(0 0 0 / 0.2);
+    padding: 0.4rem;
+    margin-right: 2rem;
+    width: 90rem;
+    font-weight: 600;
+}
+.card .fa{
+    padding: 18px;
+}
+.Client{
+    padding: 2rem;
+}
+.clienttitle h1{
+    color: var(--tertiary);
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 4rem; 
+    z-index: 1; 
+}
+.clienttitle span{
+    z-index: -1;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 18%;
+}
+
+.Client .clientsexample .card img{
+    width: 80%;
+    padding-left: 2rem;
+}
+.teamimages{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.teamtitle{
+    color: var(--tertiary);
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 4rem 0 0 4rem ; 
+}
+.teamtitle span{
+    z-index: -1;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 18%;
+}
+.teamrow1{
+    padding: 4rem 0 0 0;
+    margin-left: 4rem;
+}
+.teamrow2{
+    padding: 5rem 0 0 0;
+}
+.teamrow3{
+    padding: 6rem 0 0 0;
+}
+.teamimages .teamimg{
+    width: 100%;
+    position: relative;
+    color: var(--tertiary);
+    padding: 30px 10px 5px;
+    border-radius: 10px;
+    margin-top: 0.6rem;
+}
+.teamimages .teamimg img{
+    /* clip-path: circle(100% at left 40%); */
+    width: 40%;
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+.bloggrid{
+    display: grid;
+    grid-auto-flow: column;
+}
+.blogtitle h1{
+    color: var(--tertiary);
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 4rem;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 18%;
+}
+.blogcard{
+    position: relative;
+    margin-right: 1rem;
+    padding: 35px;
+    border-radius: 35px;
+    height:100%;
+    width: 85%;
+    margin-top: 0.6rem;
+    transform: translate(70px, 0px);
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 2px 0 10px rgb(0 0 0 / 0.2);
+}
+.blogcard img{
+    border-radius: 2rem;
+    width: 90%;
+    margin-left: 1.2rem;
+    
+}
+.blogcard .fa{
+    margin-top: 2rem;
+}
+.blogcard h4{
+    color: var(--tertiary);
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+.blogcard p{
+    color: var(--light);
+}
+.newsletter{
+    padding: 6rem 0 0 6rem;
+    
+}
+.newslettertitle h1{
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--tertiary);
+    
+}
+.newslettertitle span{
+    text-decoration: underline;
+    text-decoration-color: var(--secondary);
+    text-decoration-thickness: 18%;
+}
+.newslettertitle p{
+    font-size: 0.9rem;
+    padding: 1.5rem 0 1rem 4rem;
+    color: var(--tertiary);
+    font-weight: 300;
+}
+.emailbar{
+    margin:auto;
+    margin-top: 4.5rem;
+    width: 70%;
+    color: var(--light);
+    display: flex;
+    box-shadow: 2px 0 10px rgb(0 0 0 / 0.2);    
+    border-radius: 2rem;
+    padding: 10px 28px;
+    justify-content: space-between;
+}
+
+.subbutton{
+    margin-left: 4rem;
+    background: var(--secondary);
+    color: var(--pure);
+    font-size: 0.8rem;
+    border: transparent;
+    border-radius: 2rem;
+    padding: 10px 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer{
+    background: var(--primary);
+    margin-top: 4rem;
+}
+.footergridcontainer{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.footeritem{
+    display: grid;
+    grid-auto-flow: column;
+}
+.item{
+    padding-right: 2rem;
+    padding-left: 3rem;
+}
+.item img{
+    padding-bottom: 2rem;
+}
+.item h2{
+    color: var(--tertiary);
+    padding: 2rem;
+}
+.item li{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.item .itemlink span{
+    color: var(--tertiary);
+    text-decoration: none;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin-right: 1rem;
+    width: 50px;
+    height: 50px;
+    background: var(--primary);
+    border: 1.5px solid var(--secondary);
+    border-radius: 100%;
+}
