@@ -237,14 +237,14 @@ header nav .navright button span{
     text-decoration-thickness: 18%;
 }
 .teamrow1{
-    padding: 4rem 0 0 0;
+    padding: 3rem 0 0 0;
     margin-left: 4rem;
 }
 .teamrow2{
-    padding: 5rem 0 0 0;
+    padding: 6rem 0 0 0;
 }
 .teamrow3{
-    padding: 6rem 0 0 0;
+    padding: 4rem 0 0 0;
 }
 .teamimages .teamimg{
     width: 100%;
@@ -259,6 +259,12 @@ header nav .navright button span{
     width: 40%;
     filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
+.teamimages .teamimg p{
+    font-size: 1rem;
+    align-items: center;
+    font-weight: 400;
+    color: var(--light);
+}
 .bloggrid{
     display: grid;
     grid-auto-flow: column;
@@ -266,7 +272,7 @@ header nav .navright button span{
 .blogtitle h1{
     color: var(--tertiary);
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 4rem;
     text-decoration: underline;
     text-decoration-color: var(--secondary);
