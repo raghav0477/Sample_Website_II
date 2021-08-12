@@ -97,7 +97,7 @@ header nav .navright button span{
     display: grid;
     background-color: var(--pure);
     grid-template-columns: repeat(auto-fit, 150px);
-    width: 60%;
+    width: 70%;
     transform: translate(500px, 0px);
     grid-gap: 2rem;
     margin-left: 5rem;
@@ -108,8 +108,8 @@ header nav .navright button span{
 }
 .workintro h1{
     color:var(--tertiary);
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 800;
+    font-size: 2.2rem;
     padding: 4rem;
 }
 .workintro span{
@@ -160,8 +160,8 @@ header nav .navright button span{
 }
 .insectiontitle h1{
     color:var(--tertiary);
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 800;
+    font-size: 2.5rem;
     padding: 4rem;
 }
 .insectiontitle span{
@@ -204,8 +204,8 @@ header nav .navright button span{
 }
 .clienttitle h1{
     color: var(--tertiary);
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 800;
+    font-size: 2.5rem;
     padding: 4rem; 
     z-index: 1; 
 }
@@ -226,11 +226,13 @@ header nav .navright button span{
 }
 .teamtitle{
     color: var(--tertiary);
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 800;
+    font-size: 2.2rem;
     padding: 4rem 0 0 4rem ; 
 }
 .teamtitle span{
+    font-size: 2.5rem;
+    font-weight: 800;
     z-index: -1;
     text-decoration: underline;
     text-decoration-color: var(--secondary);
@@ -238,7 +240,6 @@ header nav .navright button span{
 }
 .teamrow1{
     padding: 3rem 0 0 0;
-    margin-left: 4rem;
 }
 .teamrow2{
     padding: 6rem 0 0 0;
@@ -255,9 +256,7 @@ header nav .navright button span{
     margin-top: 0.6rem;
 }
 .teamimages .teamimg img{
-    /* clip-path: circle(100% at left 40%); */
     width: 40%;
-    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
 .teamimages .teamimg p{
     font-size: 1rem;
@@ -279,15 +278,10 @@ header nav .navright button span{
     text-decoration-thickness: 18%;
 }
 .blogcard{
-    position: relative;
-    margin-right: 1rem;
-    padding: 35px;
-    border-radius: 35px;
+    padding: 35px 12px 0 10px;
+    border-radius: 25px;
     height:100%;
     width: 85%;
-    margin-top: 0.6rem;
-    transform: translate(70px, 0px);
-    box-shadow: 0 2px 10px rgb(0 0 0 / 0.2);
     box-shadow: 2px 0 10px rgb(0 0 0 / 0.2);
 }
 .blogcard img{
@@ -295,8 +289,9 @@ header nav .navright button span{
     width: 90%;
     margin-left: 1.2rem;  
 }
-.blogcard .material-icons{
-    margin-top: 2rem;
+.blogcard .blogarrow{
+    margin-top: 1.5rem;
+    width: 2rem;
 }
 .blogcard h4{
     color: var(--tertiary);
@@ -312,7 +307,7 @@ header nav .navright button span{
 }
 .newslettertitle h1{
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--tertiary);
     
 }
@@ -330,7 +325,7 @@ header nav .navright button span{
 .emailbar{
     margin:auto;
     margin-top: 4.5rem;
-    width: 70%;
+    width: 65%;
     color: var(--light);
     display: flex;
     box-shadow: 2px 0 10px rgb(0 0 0 / 0.2);    
@@ -385,10 +380,9 @@ footer{
     display: flex;
     padding: 15px;
     align-items: center;
-    margin-right: 1rem;
+    margin: 2rem 0 1.8rem 1.2rem;
     width: 50px;
     height: 50px;
-    background: var(--primary);
     border: 1.5px solid var(--secondary);
     border-radius: 100%;
 }
