@@ -1,1 +1,1 @@
-## this is the solution code for the webdesign
+## This is the solution code for the Sample webdesign
